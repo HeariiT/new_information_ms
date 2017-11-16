@@ -1,0 +1,6 @@
+version: "2"
+services:
+  information-ms:
+    build: .
+    ports:
+      - "3003:3003"
